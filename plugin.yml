@@ -13,8 +13,12 @@ commands:
    description: ChestLocker Commands.
  lock:
    description: Lock Chest.
-unlock:
-   description: 开箱子.
+ unlock:
+   description: Unlock Chest.
+ pwdlock:
+   description: Password Lock Chest.
+ pwdunlock:
+   description: Password Unlock Chest.
 permissions:
  chestlocker:
   default: true
@@ -42,3 +46,9 @@ permissions:
       chestlocker.commands.unlockchest:
        default: true
        description: ChestLocker command UnlockChest permission.
+      chestlocker.commands.pwdlockchest:
+       default: true
+       description: ChestLocker command Password LockChest permission.
+      chestlocker.commands.pwdunlockchest:
+       default: true
+       description: ChestLocker command Password UnlockChest permission.
